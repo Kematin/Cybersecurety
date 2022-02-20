@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 10.3</compiler>
+      <library name='libext2fs' version='1.46.5'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-2.0.6'/>
+      <library name='libntfs' version='libntfs-3g'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.4.0-19041-Microsoft</os_release>
+      <os_version>#1237-Microsoft Sat Sep 11 14:32:00 PST 2021</os_version>
+      <host>DESKTOP-SDV96OU</host>
+      <arch>x86_64</arch>
+      <uid>1000</uid>
+      <start_time>2022-02-20T10:13:15+0500</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>download.pcap</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>144408</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='144408'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000000.pcap</filename>
+    <filesize>144408</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='0' len='196608'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

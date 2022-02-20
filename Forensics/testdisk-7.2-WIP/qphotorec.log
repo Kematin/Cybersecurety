@@ -1,0 +1,28 @@
+ru
+translator installed
+
+
+Sat Feb 19 22:28:37 2022
+PhotoRec 7.2-WIP, Data Recovery Utility, February 2022
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, MinGW 3.11
+ext2fs lib: none, ntfs lib: 10:0:0, ewf lib: 20140608, libjpeg: libjpeg-turbo-2.1.1
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive0)=1000204886016
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive1)=256060514304
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\C:)=255414239232
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\D:)=423486291968
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\E:)=325057511424
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\F:)=251658240000
+Partition table type (auto): Intel
+Disk \\.\PhysicalDrive0 - 1000 GB / 931 GiB (RO) - WDC WD10SPZX-17Z10T0
+Geometry from i386 MBR: head=255 sector=63
+     No partition             0   0  1 121601  80 63 1953525168 [Whole disk]
+ 1 P HPFS - NTFS              0  32 33 51486  17 51  827121664 [Games]
+     NTFS, blocksize=4096, 423 GB / 394 GiB
+ 2 P HPFS - NTFS          51486  17 52 91005 100 39  634877952 [ETC]
+     NTFS, blocksize=4096, 325 GB / 302 GiB
+ 3 P HPFS - NTFS          91005 100 40 121601  25 24  491520000 [Montage]
+     NTFS, blocksize=4096, 251 GB / 234 GiB
+QPhotoRec exited normally.
