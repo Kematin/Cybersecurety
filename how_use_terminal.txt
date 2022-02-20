@@ -1,0 +1,46 @@
+cd dir = go to some dir
+cd .. = upper in dir (/a/b/ -> /a/)
+cd ~/dir = home dir (/home/dir)
+cd - = go in first dir
+command name press tab will append the file name
+(cd how_to and press tab -> cd how_to_use_terminal.txt)
+
+ctrl+l = clean but we also can see previous commands 
+cat file = read file
+rm file = delete file in this directory 
+rm -rf dir = delete directory
+cp file = copy file 
+touch file = create file
+ 
+clear = cls 
+printf "text" > file = append string in file with formatting 
+(printf "this %d line" 1 > some_file.txt)
+> = rewrite file
+(echo "some text" [>] some_file.txt) will rewrite this file with new line
+>> = append text in file
+stat file = info about file
+ 
+dd if=dir/file of=dir/file count=n 
+dd = copy file 
+if = where to get data 
+of = where to write data 
+count = size file
+
+pushd dir = create mark dir
+popd = go in mark dir
+ls = see files in dir
+
+reset = terminal reset (if clear or ctrl+l dont work)
+ctrl+z = stop programm in terminal (pause)
+
+history = check history of commands
+!num_from_history = use command from history
+HISTTIMEFORMAT = "%Y-$m-%d %T" = set format for history
+
+ctrl+u = delete large command from terminal
+command ; command = use many commands
+command && command = use next command if previous was completly succesfully 
+
+mv from/file to/file = relocation file
+mkdir dir = create dir
+rmdir dir = delete dir
