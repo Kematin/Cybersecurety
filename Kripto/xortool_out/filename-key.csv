@@ -1,0 +1,3 @@
+file_name;key_repr
+xortool_out\0.out;b'\x06\x02\x04\x04'
+xortool_out\1.out;b'\x06\x00\x04\x04'
